@@ -7,7 +7,6 @@
 domain=$YNH_APP_ARG_DOMAIN
 path_url=$YNH_APP_ARG_PATH
 
-admin=$YNH_APP_ARG_ADMIN
 is_public=$YNH_APP_ARG_IS_PUBLIC
 app=$YNH_APP_INSTANCE_NAME
 
@@ -24,9 +23,6 @@ debug_enabled="0"
 
 # 'log_level' -> '__LOG_LEVEL__' -> settings.LOG_LEVEL
 log_level="WARNING"
-
-# 'admin_email' -> '__ADMIN_EMAIL__' add in settings.ADMINS
-admin_email="${admin}@${domain}"
 
 # 'default_from_email' -> '__DEFAULT_FROM_EMAIL__' -> settings.DEFAULT_FROM_EMAIL
 default_from_email="${app}@${domain}"

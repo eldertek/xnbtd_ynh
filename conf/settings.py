@@ -36,17 +36,6 @@ PATH_URL = PATH_URL.strip('/')
 YNH_CURRENT_HOST = '__YNH_CURRENT_HOST__'  # YunoHost main domain from: /etc/yunohost/current_host
 
 # -----------------------------------------------------------------------------
-# config_panel.toml settings:
-
-DEBUG_ENABLED = '__DEBUG_ENABLED__'
-DEBUG = bool(int(DEBUG_ENABLED))
-
-LOG_LEVEL = '__LOG_LEVEL__'
-ADMIN_EMAIL = '__ADMIN_EMAIL__'
-DEFAULT_FROM_EMAIL = '__DEFAULT_FROM_EMAIL__'
-
-
-# -----------------------------------------------------------------------------
 
 
 SECRET_KEY = __get_or_create_secret(FINALPATH / 'secret.txt')  # /opt/yunohost/$app/secret.txt
@@ -61,11 +50,6 @@ ROOT_URLCONF = 'urls'  # .../conf/urls.py
 
 # -----------------------------------------------------------------------------
 
-
-ADMINS = (('__ADMIN__', ADMIN_EMAIL),)
-
-MANAGERS = ADMINS
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -77,19 +61,6 @@ DATABASES = {
         'CONN_MAX_AGE': 600,
     }
 }
-
-# Title of site to use
-SITE_TITLE = '__APP__'
-
-# Site domain
-SITE_DOMAIN = '__DOMAIN__'
-
-# Subject of emails includes site title
-EMAIL_SUBJECT_PREFIX = f'[{SITE_TITLE}] '
-
-
-# E-mail address that error messages come from.
-SERVER_EMAIL = ADMIN_EMAIL
 
 # Default email address to use for various automated correspondence from
 # the site managers. Used for registration emails.
