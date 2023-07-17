@@ -1,0 +1,113 @@
+[tool.poetry]
+name = "xnbtd_ynh"
+version = "0.0.1"
+description = "xnbtd is an open-source digital signage system for high schools."
+authors = ["André Théo LAURET <andrelauret@eclipse-technology.eu>"]
+license = "GPL-3.0-or-later"
+homepage = "https://github.com/eldertek/xnbtd_ynh"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/eldertek/xnbtd_ynh/issues"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0.0"  # Stay with 3.9 until YunoHost used >=Debian 11 (Bullseye)
+
+xnbtd = "0.0.1"  # https://github.com/eldertek/xnbtd
+
+# extras "ynh" will install: gunicorn and django-redis
+# see: https://github.com/YunoHost-Apps/django_yunohost_integration/blob/main/pyproject.toml
+django_yunohost_integration = {version = ">=0.5.0rc1", extras = ["ynh"]}  # https://github.com/YunoHost-Apps/django_yunohost_integration
+
+
+[tool.poetry.dev-dependencies]
+tox = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-django = "*"
+pytest-darker = "*"  # https://github.com/akaihola/pytest-darker
+coveralls = "*"
+isort = "*"
+flake8 = "*"
+EditorConfig = "*"  # https://github.com/editorconfig/editorconfig-core-py
+safety = "*"  # https://github.com/pyupio/safety
+requests = "*"  # https://github.com/psf/requests
+packaging = "*"  # https://github.com/pypa/packagi
+beautifulsoup4 = "*"  # https://pypi.org/project/beautifulsoup4/
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.darker]
+src = ['.']
+revision = "origin/master..."
+line_length = 100
+verbose = true
+skip_string_normalization = true
+diff = false
+check = false
+stdout = false
+isort = true
+lint = [
+    "flake8",
+]
+log_level = "INFO"
+
+
+[tool.isort]
+# https://pycqa.github.io/isort/docs/configuration/config_files/#pyprojecttoml-preferred-format
+atomic=true
+profile='black'
+skip_glob=["*/htmlcov/*","*/migrations/*","*/local_test/*"]
+known_first_party=['django_yunohost_integration']
+line_length=100
+lines_after_imports=2
+
+
+[tool.pytest.ini_options]
+# https://docs.pytest.org/en/latest/customize.html#pyproject-toml
+minversion = "6.0"
+norecursedirs = ".* .git __pycache__ conf local_test coverage* dist htmlcov"
+# sometimes helpfull "addopts" arguments:
+#    -vv
+#    --verbose
+#    --capture=no
+#    --trace-config
+#    --full-trace
+#    -p no:warnings
+addopts = """
+    --reuse-db
+    --nomigrations
+    --cov=.
+    --cov-report term-missing
+    --cov-report html
+    --cov-report xml
+    --no-cov-on-fail
+    --showlocals
+    --darker
+    --doctest-modules
+    --failed-first
+    --new-first
+"""
+
+
+[tool.coverage.run]
+omit = [".*"]
+
+
+[tool.tox]
+# https://tox.readthedocs.io/en/latest/example/basic.html#pyproject-toml-tox-legacy-ini
+legacy_tox_ini = """
+[tox]
+isolated_build = True
+envlist = py{39,310}
+skip_missing_interpreters = True
+
+[testenv]
+passenv = *
+whitelist_externals = make
+commands =
+    make pytest
+"""
