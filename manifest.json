@@ -6,7 +6,7 @@
 		"en": "Digital signage system for high schools",
 		"fr": "Affichage dynamique open-source pour les lycées"
 	},
-	"version": "0.0.1~ynh1",
+	"version": "0.0.3~ynh1",
 	"url": "https://github.com/eldertek/xnbtd",
     "upstream": {
         "license": "GPL-3.0",
