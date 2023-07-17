@@ -121,6 +121,6 @@ tzdata==2023.3 ; python_version >= "3.9" and python_full_version < "4.0.0" and s
 webencodings==0.5.1 ; python_version >= "3.9" and python_full_version < "4.0.0" \
     --hash=sha256:a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78 \
     --hash=sha256:b36a1c245f2d304965eb4e0a82848379241dc04b865afcc4aab16748587e1923
-xnbtd==0.0.1 ; python_version >= "3.9" and python_full_version < "4.0.0" \
-    --hash=sha256:44c44489906d25d166692e0008563f8cfacaf6a60888ee7390006244098b899f \
-    --hash=sha256:bcf7b76bb21e6943695cb2379e33d9edb2a480b46c3a123e83fa7baa354d010d
+xnbtd==0.0.3 ; python_version >= "3.9" and python_full_version < "4.0.0" \
+    --hash=sha256:80b6e273a31d8cf78e782c71ba1bc7577530ea6b915f70f27810e4827de039aa \
+    --hash=sha256:b1c5e9ae3dabb8f01615434195edd9c9da5b01d4f3aa836d0fc86e5aa9cd71d1
