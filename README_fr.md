@@ -5,10 +5,6 @@ It shall NOT be edited by hand.
 
 # xNBTD pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/xnbtd.svg)](https://dash.yunohost.org/appci/app/xnbtd) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/xnbtd.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/xnbtd.maintain.svg)
-
-[![Installer xnbtd avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=xnbtd)
-
 *[Read this readme in english.](./README.md)*
 
 > *Ce package vous permet d’installer xnbtd rapidement et simplement sur un serveur YunoHost.
