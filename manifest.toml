@@ -5,7 +5,7 @@ name = "xNBTD"
 description.en = "Digital signage system for high schools"
 description.fr = "Affichage dynamique open-source pour les lycées"
 
-version = "0.0.6~ynh1"
+version = "0.0.1~ynh1"
 
 maintainers = ["eldertek"]
 
