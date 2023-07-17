@@ -127,7 +127,7 @@ systemctl enable $app.service --quiet
 #=================================================
 ynh_script_progression --message="Integrating service in YunoHost..."
 
-yunohost service add $app --description="Digital signage system for high schools" --log="${log_file}"
+yunohost service add $app --description="Delivery Business Management" --log="${log_file}"
 
 #=================================================
 # RESTORE THE LOGROTATE CONFIGURATION

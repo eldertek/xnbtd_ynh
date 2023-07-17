@@ -1,1 +1,1 @@
-[xnbtd](https://github.com/eldertek/xnbtd) is an open-source digital signage system for high schools, built using Python and Django. It provides an easy-to-use interface for administrators to upload and manage multimedia content, which is then displayed on screens throughout the school.
+[xNBTD](https://github.com/eldertek/xnbtd) is a management application for delivery business. It facilitates the management of routes and schedules.
