@@ -145,9 +145,9 @@ ynh_add_config --template="wsgi.py" --destination="$final_path/wsgi.py"
 touch "$final_path/local_settings.py"
 
 #=================================================
-# MIGRATE / COLLECTSTATIC / CREATEADMIN
+# MIGRATE / COLLECTSTATIC
 #=================================================
-ynh_script_progression --message="migrate/collectstatic/createadmin..." --weight=10
+ynh_script_progression --message="migrate/collectstatic..." --weight=10
 
 cd "$final_path" || exit
 
@@ -156,10 +156,6 @@ cd "$final_path" || exit
 
 ./manage.py migrate --no-input
 ./manage.py collectstatic --no-input
-
-# Create/update Django superuser
-DJANGO_SUPERUSER_PASSWORD="admin"
-./manage.py createsuperuser --noinput --username="admin" || true
 
 # Check the configuration
 # This may fail in some cases with errors, etc., but the app works and the user can fix issues later.
