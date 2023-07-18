@@ -6,7 +6,7 @@
 		"en": "Management application for delivery business. It facilitates the management of routes and schedules.",
 		"fr": "Application de gestion pour entreprise de livraison. Elle facilite la gestion des tournées et des plannings."
 	},
-	"version": "0.0.6~ynh1",
+	"version": "0.0.7~ynh1",
 	"url": "https://github.com/eldertek/xnbtd",
     "upstream": {
         "license": "GPL-3.0",
