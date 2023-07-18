@@ -11,7 +11,6 @@
 
 from pathlib import Path as __Path
 
-from django_yunohost_integration.base_settings import *  # noqa:F401,F403
 from django_yunohost_integration.secret_key import get_or_create_secret as __get_or_create_secret
 
 
@@ -40,9 +39,7 @@ YNH_CURRENT_HOST = '__YNH_CURRENT_HOST__'  # YunoHost main domain from: /etc/yun
 
 SECRET_KEY = __get_or_create_secret(FINALPATH / 'secret.txt')  # /opt/yunohost/$app/secret.txt
 
-# Keep ModelBackend around for per-user permissions and superuser
 AUTHENTICATION_BACKENDS = (
-    # Fallback to normal Django model backend:
     'django.contrib.auth.backends.ModelBackend',
 )
 

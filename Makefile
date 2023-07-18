@@ -45,9 +45,6 @@ tox: check-poetry ## Run pytest via tox with all environments
 pytest: install  ## Run pytest
 	poetry run pytest
 
-local-test: install  ## Run local_test.py to run the project locally
-	poetry run python3 ./local_test.py
-
 local-diff-settings:  ## Run "manage.py diffsettings" with local test
 	poetry run python3 local_test/opt_yunohost/manage.py diffsettings
 
