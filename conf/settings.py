@@ -59,9 +59,6 @@ DATABASES = {
     }
 }
 
-# Default email address to use for various automated correspondence from
-# the site managers. Used for registration emails.
-
 # List of URLs your site is supposed to serve
 ALLOWED_HOSTS = ['__DOMAIN__']
 

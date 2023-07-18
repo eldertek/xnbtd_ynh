@@ -1379,13 +1379,13 @@ files = [
 
 [[package]]
 name = "xnbtd"
-version = "0.0.5"
+version = "0.0.6"
 description = "xNBTD est une application de gestion pour entreprise de livraison. Elle facilite la gestion des tournées et des plannings."
 optional = false
 python-versions = ">=3.9,<4.0.0"
 files = [
-    {file = "xnbtd-0.0.5-py3-none-any.whl", hash = "sha256:99bb4740178df098387eebb99ada46262e17d8ab2eb12b47eceed2ebe9d505d9"},
-    {file = "xnbtd-0.0.5.tar.gz", hash = "sha256:422c870c86a60e8053d4a12b1120e2a01ba937facc9b980d4d51597d2e668d32"},
+    {file = "xnbtd-0.0.6-py3-none-any.whl", hash = "sha256:7eec70d005c1e8a75608c4e25aaa533277b99d7afcb74aa4d0387878282f5250"},
+    {file = "xnbtd-0.0.6.tar.gz", hash = "sha256:f22974bdfe606351c994e57b1ef977e29532973de0615c901fad295a0c3be6b1"},
 ]
 
 [package.dependencies]
@@ -1395,4 +1395,4 @@ pip = ">=23.1.2,<24.0.0"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<4.0.0"
-content-hash = "471e55716e36cc5cf0d2bb1cb3ea97456f8c76f37c009b4f6b804451b5e9b6aa"
+content-hash = "81159519fc9c2cd188d7d275cdaf7ad5b6658525d4b5dbd1ba84ff0c374c037c"
