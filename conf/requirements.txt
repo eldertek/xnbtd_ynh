@@ -150,5 +150,5 @@ xlwt==1.3.0 ; python_version >= "3.9" and python_full_version < "4.0.0" \
     --hash=sha256:a082260524678ba48a297d922cc385f58278b8aa68741596a87de01a9c628b2e \
     --hash=sha256:c59912717a9b28f1a3c2a98fd60741014b06b043936dcecbc113eaaada156c88
 xnbtd==0.0.8 ; python_version >= "3.9" and python_full_version < "4.0.0" \
-    --hash=sha256:7a4946cf20e89be8f16492d9ddb3fdaf4e755dd0d7e9f8694668bec51544b4df \
-    --hash=sha256:c7cc5ee13b039fe3adbbdc75b6d096363efee81dcf7678d4e8bee01d10fac21b
+    --hash=sha256:c27016bb228b78f13a2207035a2a19a0bbac356e772771a8e0e8e64e9a8512eb \
+    --hash=sha256:f1245bb5118c2946ecc0d25943d5ef0a2bf77762b6f45b4a2f2e3f57a047d5c8
