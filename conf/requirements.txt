@@ -43,9 +43,9 @@ django==4.1.10 ; python_version >= "3.9" and python_full_version < "4.0.0" \
 et-xmlfile==1.1.0 ; python_version >= "3.9" and python_full_version < "4.0.0" \
     --hash=sha256:8eb9e2bc2f8c97e37a2dc85a09ecdcdec9d8a396530a6d5a33b30b9a92da0c5c \
     --hash=sha256:a2ba85d1d6a74ef63837eed693bcb89c3f752169b0e3e7ae5b16ca5e1b3deada
-gunicorn==21.1.0 ; python_version >= "3.9" and python_full_version < "4.0.0" \
-    --hash=sha256:11fc98ea214a5845f614891e8c90b0211fbe595e677d204d7cd7d80f6f348891 \
-    --hash=sha256:37ced4b6622f263a6483eb7cbe9606df81afd57dc0fa464883600624790271c5
+gunicorn==21.2.0 ; python_version >= "3.9" and python_full_version < "4.0.0" \
+    --hash=sha256:3213aa5e8c24949e792bcacfc176fef362e7aac80b76c56f6b5122bf350722f0 \
+    --hash=sha256:88ec8bff1d634f98e61b9f65bc4bf3cd918a90806c6f5c48bc5603849ec81033
 icdiff==2.0.6 ; python_version >= "3.9" and python_full_version < "4.0.0" \
     --hash=sha256:a2673b335d671e64fc73c44e1eaa0aa01fd0e68354e58ee17e863ab29912a79a
 markuppy==1.14 ; python_version >= "3.9" and python_full_version < "4.0.0" \
@@ -149,6 +149,6 @@ xlrd==2.0.1 ; python_version >= "3.9" and python_full_version < "4.0.0" \
 xlwt==1.3.0 ; python_version >= "3.9" and python_full_version < "4.0.0" \
     --hash=sha256:a082260524678ba48a297d922cc385f58278b8aa68741596a87de01a9c628b2e \
     --hash=sha256:c59912717a9b28f1a3c2a98fd60741014b06b043936dcecbc113eaaada156c88
-xnbtd==0.0.8 ; python_version >= "3.9" and python_full_version < "4.0.0" \
-    --hash=sha256:c27016bb228b78f13a2207035a2a19a0bbac356e772771a8e0e8e64e9a8512eb \
-    --hash=sha256:f1245bb5118c2946ecc0d25943d5ef0a2bf77762b6f45b4a2f2e3f57a047d5c8
+xnbtd==0.0.9 ; python_version >= "3.9" and python_full_version < "4.0.0" \
+    --hash=sha256:960bc707499e7b14df3b66b86f7b0f7ad982c879adbefbfabdcd5e31758e1dd1 \
+    --hash=sha256:c0d488819328e0b6d96037f8cb3eb4716aa477a381f9fc64d475f5a2401bf925
