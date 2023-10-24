@@ -39,18 +39,18 @@ The App project will be stored under `__FINALPATH__` (e.g.: `/opt/yunohost/$app`
 
 * Dépôt de code officiel de l’app : <https://github.com/eldertek/xnbtd>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_xnbtd>
-* Signaler un bug : <https://github.com/YunoHost-Apps/xnbtd_ynh/issues>
+* Signaler un bug : <https://github.com/eldertek/xnbtd_ynh/issues>
 
 ## Informations pour les développeurs
 
-Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/xnbtd_ynh/tree/testing).
+Merci de faire vos pull request sur la [branche testing](https://github.com/eldertek/xnbtd_ynh/tree/testing).
 
 Pour essayer la branche testing, procédez comme suit.
 
 ``` bash
-sudo yunohost app install https://github.com/YunoHost-Apps/xnbtd_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/eldertek/xnbtd_ynh/tree/testing --debug
 ou
-sudo yunohost app upgrade xnbtd -u https://github.com/YunoHost-Apps/xnbtd_ynh/tree/testing --debug
+sudo yunohost app upgrade xnbtd -u https://github.com/eldertek/xnbtd_ynh/tree/testing --debug
 ```
 
 **Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
