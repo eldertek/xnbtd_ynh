@@ -30,8 +30,6 @@ LOG_FILE = __Path('__LOG_FILE__')  # /var/log/$app/xnbtd_ynh.log
 assert LOG_FILE.is_file(), f'File not exists: {LOG_FILE}'
 
 PATH_URL = '__PATH_URL__'  # $YNH_APP_ARG_PATH
-PATH_URL = PATH_URL.strip('/')
-
 YNH_CURRENT_HOST = '__YNH_CURRENT_HOST__'  # YunoHost main domain from: /etc/yunohost/current_host
 
 # -----------------------------------------------------------------------------
@@ -78,10 +76,7 @@ CACHES = {
     },
 }
 
-# _____________________________________________________________________________
-# Static files (CSS, JavaScript, Images)
-
-if PATH_URL:
+if PATH_URL := PATH_URL.strip('/'):
     STATIC_URL = f'/{PATH_URL}/static/'
     MEDIA_URL = f'/{PATH_URL}/media/'
 else:
