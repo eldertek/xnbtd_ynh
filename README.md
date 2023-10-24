@@ -15,7 +15,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 [xNBTD](https://github.com/eldertek/xnbtd) is a management application for delivery business. It facilitates the management of routes and schedules.
 
 
-**Shipped version:** 1.0.5~ynh1
+**Shipped version:** 1.0.6~ynh1
 ## Disclaimers / important information
 
 ## Links

@@ -130,6 +130,6 @@ tzdata==2023.3 ; python_version >= "3.9" and python_version < "4" and sys_platfo
 webencodings==0.5.1 ; python_version >= "3.9" and python_version < "4" \
     --hash=sha256:a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78 \
     --hash=sha256:b36a1c245f2d304965eb4e0a82848379241dc04b865afcc4aab16748587e1923
-xnbtd==1.0.5 ; python_version >= "3.9" and python_full_version < "4.0.0" \
-    --hash=sha256:0e5da52015a6b4d8ef311ac977281f2c866b3227cb8160dd6ca3ab126736ee12 \
-    --hash=sha256:eadbb0cafb8655666097d9f97003e595a10f8bb81f1e5ac7fba21ecbcd7504e5
+xnbtd==1.0.6 ; python_version >= "3.9" and python_full_version < "4.0.0" \
+    --hash=sha256:2a188a133a579fb4dea69dcb8bb75dfbfb3b32c13fcb061cfcd1cb906151baa3 \
+    --hash=sha256:945fdf276ec299c0f7c9eb7d5b5ea25a5f9821f6e7197bbd3fc72117e8947c87
