@@ -37,7 +37,6 @@ description = "Timeout context manager for asyncio programs"
 optional = false
 python-versions = ">=3.8"
 groups = ["main"]
-markers = "python_full_version < \"3.11.3\""
 files = [
     {file = "async_timeout-5.0.1-py3-none-any.whl", hash = "sha256:39e3809566ff85354557ec2398b55e096c8364bacac9405a7a1fa429e77fe76c"},
     {file = "async_timeout-5.0.1.tar.gz", hash = "sha256:d9321a7a3d5a6a5e187e824d2fa0793ce379a202935782d555d6e9d2735677d3"},
@@ -2640,4 +2639,4 @@ pip = ">=23.1.2,<24.0.0"
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.9,<4.0.0"
-content-hash = "5ef74e75b44b10e2133af484529afb1b75a152afa77d0334087e6c152ef14b95"
+content-hash = "9b952e2a35792e54e4c234d9b2555e28d8fd745f6c1632ea829d583acc7e91cb"
