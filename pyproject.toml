@@ -13,7 +13,7 @@ package-mode = false
 [tool.poetry.dependencies]
 python = ">=3.9,<4.0.0"  # Stay with 3.9 until YunoHost used >=Debian 11 (Bullseye)
 
-xnbtd = "2.0.0"  # https://github.com/eldertek/xnbtd
+xnbtd = "2.0.1"  # https://github.com/eldertek/xnbtd
 
 # extras "ynh" will install: gunicorn and django-redis
 # see: https://github.com/YunoHost-Apps/django_yunohost_integration/blob/main/pyproject.toml
