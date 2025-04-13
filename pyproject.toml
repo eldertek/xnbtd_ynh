@@ -15,6 +15,7 @@ python = ">=3.9,<4.0.0"  # Stay with 3.9 until YunoHost used >=Debian 11 (Bullse
 
 xnbtd = "2.0.1"  # https://github.com/eldertek/xnbtd
 psycopg2 = "*"  # PostgreSQL adapter for Python
+django-redis = "*"  # Redis cache backend for Django
 
 # extras "ynh" will install: gunicorn and django-redis
 # see: https://github.com/YunoHost-Apps/django_yunohost_integration/blob/main/pyproject.toml

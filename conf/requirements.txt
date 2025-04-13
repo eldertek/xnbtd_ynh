@@ -22,6 +22,7 @@ darker==2.1.1
 darkgraylib==1.2.1
 distlib==0.3.9
 Django==5.2
+django-redis==5.4.0
 django-tools==0.56.2
 django_yunohost_integration==0.10.2
 docopt==0.6.2
@@ -67,6 +68,7 @@ pytest-django==4.11.1
 python-dateutil==2.9.0.post0
 python-stdnum==1.20
 PyYAML==6.0.2
+redis==5.2.1
 regex==2024.11.6
 requests==2.32.3
 rich==14.0.0
