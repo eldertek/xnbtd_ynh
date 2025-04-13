@@ -905,7 +905,6 @@ description = "Full featured redis cache backend for Django."
 optional = false
 python-versions = ">=3.6"
 groups = ["main"]
-markers = "python_version < \"3.13\""
 files = [
     {file = "django-redis-5.4.0.tar.gz", hash = "sha256:6a02abaa34b0fea8bf9b707d2c363ab6adc7409950b2db93602e6cb292818c42"},
     {file = "django_redis-5.4.0-py3-none-any.whl", hash = "sha256:ebc88df7da810732e2af9987f7f426c96204bf89319df4c6da6ca9a2942edd5b"},
@@ -1987,7 +1986,6 @@ description = "Python client for Redis database and key-value store"
 optional = false
 python-versions = ">=3.8"
 groups = ["main"]
-markers = "python_version < \"3.13\""
 files = [
     {file = "redis-5.2.1-py3-none-any.whl", hash = "sha256:ee7e1056b9aea0f04c6c2ed59452947f34c4940ee025f5dd83e6a6418b6989e4"},
     {file = "redis-5.2.1.tar.gz", hash = "sha256:16f2e22dff21d5125e8481515e386711a34cbec50f0e44413dd7d9c060a54e0f"},
@@ -2642,4 +2640,4 @@ pip = ">=23.1.2,<24.0.0"
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.9,<4.0.0"
-content-hash = "ed1fe46d58d1e8fae85c5a340b9fe11fd1a28d6001010e4e8f6e1db09c921640"
+content-hash = "4dfb9f3280beedb0d3c58ee9a063baff4c91015feb81c4e13b6f5e318746d5c8"
