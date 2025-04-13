@@ -2640,4 +2640,4 @@ pip = ">=23.1.2,<24.0.0"
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.9,<4.0.0"
-content-hash = "4dfb9f3280beedb0d3c58ee9a063baff4c91015feb81c4e13b6f5e318746d5c8"
+content-hash = "5ef74e75b44b10e2133af484529afb1b75a152afa77d0334087e6c152ef14b95"
