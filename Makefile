@@ -26,7 +26,8 @@ update: check-poetry  ## update the sources and installation and generate "conf/
 	poetry self update
 	poetry update -v
 	poetry install
-	poetry export -f requirements.txt --output conf/requirements.txt
+	# Generate requirements.txt using pip freeze
+	poetry run pip freeze > conf/requirements.txt
 
 lint: ## Run code formatters and linter
 	poetry run isort --check-only .

@@ -5,6 +5,7 @@ description = "xNBTD is a management application for delivery business. It facil
 authors = ["André Théo LAURET <andrelauret@eclipse-technology.eu>"]
 license = "GPL-3.0-or-later"
 homepage = "https://github.com/eldertek/xnbtd_ynh"
+package-mode = false
 
 [tool.poetry.urls]
 "Bug Tracker" = "https://github.com/eldertek/xnbtd_ynh/issues"
