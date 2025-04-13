@@ -1552,7 +1552,6 @@ description = "psycopg2 - Python-PostgreSQL Database Adapter"
 optional = false
 python-versions = ">=3.8"
 groups = ["main"]
-markers = "python_version < \"3.13\""
 files = [
     {file = "psycopg2-2.9.10-cp310-cp310-win32.whl", hash = "sha256:5df2b672140f95adb453af93a7d669d7a7bf0a56bcd26f1502329166f4a61716"},
     {file = "psycopg2-2.9.10-cp310-cp310-win_amd64.whl", hash = "sha256:c6f7b8561225f9e711a9c47087388a97fdc948211c10a4bccbf0ba68ab7b3b5a"},
@@ -2643,4 +2642,4 @@ pip = ">=23.1.2,<24.0.0"
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.9,<4.0.0"
-content-hash = "f154de883d02e1dfe2781c894e2b6899a52279ec330f240cba43ca3ef6b2b3a0"
+content-hash = "ed1fe46d58d1e8fae85c5a340b9fe11fd1a28d6001010e4e8f6e1db09c921640"
