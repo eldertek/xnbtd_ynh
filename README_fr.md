@@ -7,15 +7,15 @@ It shall NOT be edited by hand.
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d’installer xnbtd rapidement et simplement sur un serveur YunoHost.
-Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
+> *Ce package vous permet d'installer xnbtd rapidement et simplement sur un serveur YunoHost.
+Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
 
-## Vue d’ensemble
+## Vue d'ensemble
 
 [xnbtd](https://github.com/eldertek/xnbtd) is an open-source digital signage system for high schools, built using Python and Django. It provides an easy-to-use interface for administrators to upload and manage multimedia content, which is then displayed on screens throughout the school.
 
 
-**Version incluse :** 2.0.0~ynh1
+**Version incluse :** 2.0.2~ynh1
 ## Avertissements / informations importantes
 
 ## Links
@@ -37,9 +37,9 @@ The App project will be stored under `__FINALPATH__` (e.g.: `/opt/yunohost/$app`
 
 ## Documentations et ressources
 
-* Dépôt de code officiel de l’app : <https://github.com/eldertek/xnbtd>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_xnbtd>
-* Signaler un bug : <https://github.com/eldertek/xnbtd_ynh/issues>
+* Dépôt de code officiel de l'app : <https://github.com/eldertek/xnbtd>
+* Documentation YunoHost pour cette app : <https://yunohost.org/app_xnbtd>
+* Signaler un bug : <https://github.com/eldertek/xnbtd_ynh/issues>
 
 ## Informations pour les développeurs
 
@@ -53,4 +53,4 @@ ou
 sudo yunohost app upgrade xnbtd -u https://github.com/eldertek/xnbtd_ynh/tree/testing --debug
 ```
 
-**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
+**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
