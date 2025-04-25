@@ -99,4 +99,4 @@ tyro==0.9.19
 urllib3==2.4.0
 virtualenv==20.30.0
 webencodings==0.5.1
-xnbtd==2.0.2
+xnbtd==2.0.3

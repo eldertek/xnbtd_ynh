@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "xnbtd_ynh"
-version = "2.0.2"
+version = "2.0.3"
 description = "xNBTD is a management application for delivery business. It facilitates the management of routes and schedules."
 authors = ["André Théo LAURET <andrelauret@eclipse-technology.eu>"]
 license = "GPL-3.0-or-later"
