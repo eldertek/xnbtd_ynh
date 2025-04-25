@@ -13,7 +13,7 @@ package-mode = false
 [tool.poetry.dependencies]
 python = ">=3.9,<4.0.0"  # Stay with 3.9 until YunoHost used >=Debian 11 (Bullseye)
 
-xnbtd = "2.0.2"  # https://github.com/eldertek/xnbtd
+xnbtd = "2.0.3"  # https://github.com/eldertek/xnbtd
 psycopg2 = "*"  # PostgreSQL adapter for Python
 django-redis = "*"  # Redis cache backend for Django
 async-timeout = "*"  # Required by Redis for async functionality
