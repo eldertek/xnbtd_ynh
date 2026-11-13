@@ -54,3 +54,8 @@ sudo yunohost app upgrade xnbtd -u https://github.com/eldertek/xnbtd_ynh/tree/te
 ```
 
 **More info regarding app packaging:** <https://yunohost.org/packaging_apps>
+
+## Commercial Support & Custom Integration
+
+Need custom features, enterprise integration, or priority support?
+Maintained by **[Eclipse Technology](https://eclipse-technology.eu)** ([contact@eclipse-technology.eu](mailto:contact@eclipse-technology.eu)).
