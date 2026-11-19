@@ -55,6 +55,11 @@ sudo yunohost app upgrade xnbtd -u https://github.com/eldertek/xnbtd_ynh/tree/te
 
 **More info regarding app packaging:** <https://yunohost.org/packaging_apps>
 
+## Security & Operations
+
+- Keep YunoHost package permissions isolated to the dedicated system user and validate backups with `yunohost backup create` / restore drills before upgrades.
+- Run the YunoHost package linter and `pip-audit` on every dependency update.
+
 ## Commercial Support & Custom Integration
 
 Need custom features, enterprise integration, or priority support?
