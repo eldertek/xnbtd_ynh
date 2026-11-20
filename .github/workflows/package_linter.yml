@@ -8,16 +8,21 @@ on:
   schedule:
     - cron: '0 8 * * *'
 
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
-      - name: 'Clone YunoHost apps package linter'
-        run: |
-          git clone --depth=1 https://github.com/YunoHost/package_linter ~/package_linter
+      - name: Clone YunoHost apps package linter
+        run: git clone --depth=1 https://github.com/YunoHost/package_linter ~/package_linter
 
-      - name: 'Run linter'
-        run: |
-          ~/package_linter/package_linter.py .
+      - name: Run linter
+        run: ~/package_linter/package_linter.py .
